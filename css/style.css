@@ -91,6 +91,9 @@ ul{
     transform: translateX(-50%);
     bottom: -25px;
 }
+.header__logo{
+    margin-left: 115px; 
+}
 .title{
     font-family: 'corporate a';
     font-size: 72px;
@@ -150,11 +153,50 @@ ul{
     width: 100%;
     text-align: center;
     padding: 14px;
+    transition: background .5s;
+}
+.premier__btn:hover{
+    border: 1px solid #53A1CB;
+    color: #53A1CB;
 }
 .premier__img{
     margin-bottom: 20px;
 }
+.video{
+    margin-bottom: 150px;
+}
+.video__img{
+    margin-bottom: 25px;
+}
+.video__btn{
+    border: 1px solid #F402A2;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'corporate a';
+    color: #F402A2;
+    line-height: 120%;
+    display: flex;
+    padding: 14px;
+    transition: background .5s;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 10px;
+}
+.video__btn:hover{
+    border: 1px solid #53A1CB;
+    color: #53A1CB;
+}
+.video__btn path{
+    transition: background .5s;
+}
+.video__btn:hover path{
+    fill: #53A1CB;
+}
 
+.video__btn span{
+    padding-top: 2px;
+}
 
 
 
