@@ -128,7 +128,31 @@ ul{
     margin-bottom: 25px;
     font-size: 24px;
     line-height: 120%;
-
+}
+.premier{
+    margin-bottom: 150px;
+}
+.premier__inner{
+    display: flex;
+    gap: 60px;
+}
+.premier__text{
+    margin-bottom: 21px;
+}
+.premier__btn{
+    border: 1px solid #F402A2;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'corporate a';
+    color: #F402A2;
+    line-height: 120%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+}
+.premier__img{
+    margin-bottom: 20px;
 }
 
 
