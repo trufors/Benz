@@ -6,4 +6,5 @@ $(function(){
         prevArrow: '<img class="arrow arrow-left" src="images/arrowleft.svg" alt="">',
         nextArrow: '<img class="arrow arrow-right" src="images/arrowright.svg" alt="">',
     });
+    
 });
